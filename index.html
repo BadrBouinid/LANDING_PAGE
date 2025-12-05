@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Realty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+          
+            <span>Skyline Realty</span>
+        </div>
+
+        <nav class="nav">
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="contact-btn">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Skyline Realty Services</h1>
+            <p>Professional Real Estate Solutions: Buy, Sell, Lease & Invest with Confidence.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2 style="text-align: center;">Our Services</h2>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Buy Property</h3>
+                <p>Find your ideal home or investment property.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Sell Property</h3>
+                <p>We help you list, market, and sell at top value.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Leasing</h3>
+                <p>Reliable leasing services for homes and apartments.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Investment</h3>
+                <p>Smart real estate investment guidance tailored to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <h2 style="text-align: center;">Client Testimonials</h2>
+
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"Skyline Realty made buying our first home a stress-free experience. Highly professional team!"</p>
+                <h4>- Emily Thompson</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>"I sold my apartment fast and above market value. Excellent service from start to finish."</p>
+                <h4>- Michael Roberts</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>"Their leasing service helped me find a perfect long-term tenant. Smooth and easy process."</p>
+                <h4>- Sarah Williams</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>"Their investment strategy helped me grow my portfolio. I trust them completely."</p>
+                <h4>- Jonathan Lee</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Skyline Realty</h2>
+        <p>We are a trusted real estate agency with years of experience in providing excellent services in leasing, buying, selling, and investment opportunities. Our mission is to make real estate simple and transparent for our clients.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+
+            <select name="service_type" required>
+                <option value="Buy">Buy Property</option>
+                <option value="Sell">Sell Property</option>
+                <option value="Leasing">Leasing</option>
+                <option value="Investment">Investment Advice</option>
+            </select>
+
+            <textarea name="message" placeholder="Write your message here..."></textarea>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 Skyline Realty — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
